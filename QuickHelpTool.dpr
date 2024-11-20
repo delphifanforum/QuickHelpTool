@@ -158,7 +158,7 @@ var
 begin
   repeat
     ShowMenu;
-    Write('Seçiminizi yapýn (1-35): ');
+    Write('Please enter your choice (1-35): ');
     Readln(Choice);
     HandleChoice(Choice);
     Writeln;
