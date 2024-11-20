@@ -11,45 +11,47 @@ adjust network settings, or even perform system maintenance tasks like firewall 
 This BAT file will become an indispensable tool for IT professionals, speeding up and simplifying management on Windows operating systems. 
 Moreover, to execute any command, all you need to do is enter the corresponding number.
 
-Writeln('==============================');
-  Writeln('         Command Menu         ');
-  Writeln('==============================');
-  Writeln('1. Get BIOS Serial Number');
-  Writeln('2. Get IPv4 Address');
-  Writeln('3. Check Windows License Expiration and Product Key');
-  Writeln('4. Get System Information');
-  Writeln('5. Show Windows Version');
-  Writeln('6. Get OS Installation Date');
-  Writeln('7. Get Logical Disk Information');
-  Writeln('8. List Installed Updates');
-  Writeln('9. Get CPU Information');
-  Writeln('10. Get Memory (RAM) Information');
-  Writeln('11. Force Group Policy Update');
-  Writeln('12. List All User Accounts');
-  Writeln('13. Get Logical Disk Information (duplicate)');
-  Writeln('14. Check C: Drive for Errors');
-  Writeln('15. Disable Windows Firewall');
-  Writeln('16. Enable Windows Firewall');
-  Writeln('17. Scan System Files for Integrity Violations');
-  Writeln('18. Open Disk Cleanup Utility');
-  Writeln('19. Upgrade All Installed Applications');
-  Writeln('20. Reinstall All Appx Packages');
-  Writeln('21. Flush DNS Resolver Cache');
-  Writeln('22. Clean Temporary Files');
-  Writeln('23. Optimize RAM');
-  Writeln('24. Ping Test');
-  Writeln('25. Traceroute');
-  Writeln('26. DNS Query');
-  Writeln('27. Display Active Network Connections');
-  Writeln('28. Display ARP Table');
-  Writeln('29. Display Routing Table');
-  Writeln('30. Display NetBIOS Name Table');
-  Writeln('31. Display IP Configuration');
-  Writeln('32. Release IP Address');
-  Writeln('33. Renew IP Address');
-  Writeln('34. Show Wi-Fi Profile Details');
-  Writeln('35. Exit');
-  Writeln('==============================');
-  Write('Please enter your choice (1-35): ');
+# Command Menu
+
+==============================
+         Command Menu         
+==============================
+1. Get BIOS Serial Number
+2. Get IPv4 Address
+3. Check Windows License Expiration and Product Key
+4. Get System Information
+5. Show Windows Version
+6. Get OS Installation Date
+7. Get Logical Disk Information
+8. List Installed Updates
+9. Get CPU Information
+10. Get Memory (RAM) Information
+11. Force Group Policy Update
+12. List All User Accounts
+13. Get Logical Disk Information (duplicate)
+14. Check C: Drive for Errors
+15. Disable Windows Firewall
+16. Enable Windows Firewall
+17. Scan System Files for Integrity Violations
+18. Open Disk Cleanup Utility
+19. Upgrade All Installed Applications
+20. Reinstall All Appx Packages
+21. Flush DNS Resolver Cache
+22. Clean Temporary Files
+23. Optimize RAM
+24. Ping Test
+25. Traceroute
+26. DNS Query
+27. Display Active Network Connections
+28. Display ARP Table
+29. Display Routing Table
+30. Display NetBIOS Name Table
+31. Display IP Configuration
+32. Release IP Address
+33. Renew IP Address
+34. Show Wi-Fi Profile Details
+35. Exit
+==============================
+Please enter your choice (1-35):
 
 
